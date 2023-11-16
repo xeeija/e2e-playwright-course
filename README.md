@@ -1,12 +1,16 @@
 # End-to-End Testing of Web Applications
 
-This exercise is based on the TodoMVC example of Playwright, which is based on [tastejs/todomvc](https://todomvc.com/).
+This project is part of the **End-to-End Testing of Web Applications** course by <a href="https://github.com/xeeija">Bastian Lang</a> and <a href="https://github.com/ramontip">Ramon Tippl</a></b>.
 
-## Get started
+## End-to-End Testing with Playwright
+
+The exercise is based on the TodoMVC example of Playwright, which is based on [tastejs/todomvc](https://todomvc.com/).
+
+### Get started
 
 The template repository without solutions is available at [xeeija/e2e-playwright-demo](https://github.com/xeeija/e2e-playwright-demo).
 
-## Installation
+### Installation
 
 1. Fork the repository to add it to your account, so you can make your own changes.
 
@@ -23,7 +27,7 @@ The template repository without solutions is available at [xeeija/e2e-playwright
     npm install
     ```
 
-1. Install browsers for running tests. Playwright downloads all browsers seperately (eg. to the `AppData` folder).
+1. Install browsers for running tests. Playwright downloads all browsers separately (eg. to the `AppData` folder).
 
     ```
     npx playwright install
@@ -41,7 +45,7 @@ The template repository without solutions is available at [xeeija/e2e-playwright
 Continue with the next page of the course to dive in.
 
 
-### Setup for new projects
+#### Setup for new projects
 
 For new projects, Playwright can be initialized with the command below. For this exercise, the project is set up already, so you dont have to.
 
@@ -52,7 +56,7 @@ This will create a `playwright.config.ts` file with your settings, install the n
 
 You can modify the playwright config file to your needs and add projects for testing on different platforms.
 
-## Push to the template repository
+### Push to the template repository
 
 Push the `template` branch to the template repository with remote branch name `main`
 
@@ -66,3 +70,6 @@ The template branch was created as orphan branch, which means that it does not h
 ```
 git checkout -b --orphan template
 ```
+
+---
+> FH Joanneum, Business Informatics (AIM22), Selected Topics in Software Engineering 
