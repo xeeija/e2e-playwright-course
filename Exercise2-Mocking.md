@@ -1,6 +1,5 @@
 # Exercise 2: Mocking
 
-
 Make sure you have installed Playwright before starting.
 
 In this exercise, we use the Playwright demo as our API to test: https://demo.playwright.dev/api-mocking
@@ -10,7 +9,7 @@ The **Mocking** section of the handout or the **Playwright Advanded (Lab Session
 ## Setup
 
 Create a new file named `mocking.spec.ts` in the `tests` folder.
-Your task is to write tests for mocking and intercepting requests from a Fruit API. Don't forget to import 
+Your task is to write tests for mocking and intercepting requests from a Fruit API.
 
 ## Test without mocking
 
