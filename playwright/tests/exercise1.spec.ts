@@ -6,6 +6,10 @@ const TODO_ITEMS = [
   "book a doctors appointment"
 ];
 
+test.beforeEach(async ({ page }) => {
+  await page.goto("https://demo.playwright.dev/todomvc");
+});
+
 test.describe("New Todo", () => {
   test("should allow me to add todo items", async ({ page }) => {
     // The first action in a test is usually navigating to the page. This is done with page.goto
