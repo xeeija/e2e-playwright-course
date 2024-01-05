@@ -2,7 +2,7 @@
 
 Make sure you have installed Playwright before starting.
 
-In this exercise, we use the Playwright demo as our web application to test: https://demo.playwright.dev/todo-mvc
+In this exercise, we use the Playwright demo as our web application to test: https://demo.playwright.dev/todomvc
 
 Once again, the **Visual Testing** section of the handout or the **Playwright Advanded (Lab Session)** course is useful for these tests.
 
@@ -11,7 +11,7 @@ Once again, the **Visual Testing** section of the handout or the **Playwright Ad
 
 In this exercise we will enhance the first exercise from the course with visual testing!
 
-Before we continue, let's enable videos of the tests, so that we can see what's wrong if a test fails. Fpr this, update the Playwright config in the `use` block and add the following:
+Before we continue, let's enable videos of the tests, so that we can see what's wrong if a test fails. For this, update the Playwright config in the `use` block and add the following:
 
 ```ts
 use: {

@@ -2,7 +2,7 @@
 
 Make sure you have installed Playwright before starting.
 
-In this exercise, we use the Playwright demo as our web application to test: https://demo.playwright.dev/todo-mvc
+In this exercise, we use the Playwright demo as our web application to test: https://demo.playwright.dev/todomvc
 
 The **CI** section of the handout or the **Playwright Advanded (Lab Session)** course is useful for this exercise.
 

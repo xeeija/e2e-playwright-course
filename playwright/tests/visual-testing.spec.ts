@@ -7,7 +7,7 @@ const TODO_ITEMS = [
 ];
 
 // change this after the test to simulate something in the styling changed
-const indexToAdd = 0
+const indexToAdd = 0;
 
 test.describe("New Todo with visual testing", () => {
   test("should allow me to add todo items", async ({ page }) => {
